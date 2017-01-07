@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-fgl
+  host: IoT-fgl
+  disk_quota: 1024M
+  services:
+  - IoT-fgl-cloudantNoSQLDB
+  - IoT-fgl-iotf-service
